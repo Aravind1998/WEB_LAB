@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="xml_sample.css"?>
+<students>
+	<student>
+		<usn>1PE15IS001</usn>
+		<sname>Apeksh</sname>
+		<branch>Comp Science</branch>
+		<college>Pesit South Campus</college>
+		<age>18</age>
+		<yoj>2015</yoj>
+		<email>apeksha420@gmail.com</email>
+	</student>
+
+	<student>
+		<usn>1PE15IS002</usn>
+		<sname>Ajay</sname>
+		<branch>Info Science</branch>
+		<college>Pesit South Campus</college>
+		<age>20</age>
+		<yoj>2016</yoj>
+		<email>ajayhs@gmail.com</email>
+	</student>
+</students>
+
+

@@ -1,0 +1,50 @@
+students{
+
+display:block;
+
+}
+
+student1{
+
+display:block;
+background-color: #90DCAE;
+color : #457123;
+}
+
+
+student2
+{
+color : #483241;
+}
+
+usn{
+display:block;
+margin-left : 20pt;
+text-transform : uppercase;
+}
+
+sname{
+display:block;
+}
+
+
+branch{
+display:block;
+}
+
+
+college{
+display:block;
+}
+
+age{
+display:block;
+}
+
+yoj{
+display:block;
+}
+
+email{
+display:block;
+}
