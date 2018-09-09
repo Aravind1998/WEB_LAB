@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ <meta charset = "utf-8">
+ <title> TEXT GROWING AND SHRINKING </title>
+</head>
+
+<body onload = "start();">
+ <p align = "center" id = "text"></p>
+ <script>
+	var t,c=0;
+	function start(){
+		t = window.setInterval(incr,100);
+}
+		function incr(){
+			c = c+1;
+			text.style.fontsize = c;
+			text.style.fontcolor = "red";
+			text.innerHTML = "TEXT-GROWING" + c + "pt";
+
+			if(c == 50)
+			{
+				window.clear.Timeout(t);
+				t = window.setInterval(decr,100);
+			}
+		
+		}s
+		function decr(){
+			c = c-1;
+			text.style.fontsize = c + "pt";
+			text.style.fontcolor = "blue";
+			document.getElementById("text").innerHTML = "TEXT-SHRINKING" + c + "pt"; //+ c + "pt";
+
+			if(c == 5)
+			{
+				window.clear.TimeOut(t);
+				//t = window.setInterval(decr(),100);
+			}
+		}
+ </script>
+</body>
+</html>
+
+
+
+
