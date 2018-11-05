@@ -14,7 +14,7 @@
                         $dbhost='localhost';
                         $dbname='webdb';
                         $dbuser='root';
-                        $dbpass='P@ssw0rd';
+                        $dbpass= ; //Enter your password
                         $sql=new PDO("mysql:host=$dbhost;dbname=$dbname",$dbuser,$dbpass);
                         $sql->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
                         try
