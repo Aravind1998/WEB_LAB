@@ -1,6 +1,6 @@
 # WEB_LAB
 
-The programs to be implemented for the Web Programming Laboratory
+The programs to be implemented as part of VTU Web Programming Laboratory
 
 To execute the Lab programs from 1 to 4 :-
   
